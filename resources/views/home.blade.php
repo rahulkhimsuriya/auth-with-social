@@ -16,7 +16,7 @@
         <ul class="mt-4">
             <li class="font-normal text-gray-800 mb-1"><strong>Login with:</strong><span class="font-normal ml-2">{{ $user->provider }}</span></li>
 
-            @if ($user->provider != 'Email')
+            @if ($user->provider != 'Email Address')
             <li class="font-normal text-gray-800"><strong>{{ $user->provider }} id:</strong><span class="font-normal ml-2">{{ $user->provider_id }}</span></li>
             @endif
         </ul>
