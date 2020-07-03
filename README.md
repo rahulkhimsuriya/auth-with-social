@@ -1,6 +1,6 @@
 # Laravel: Auth with Social
 
-This is simple project login with sicial sites.
+This is simple project login with social sites.
 
 ## Installation
 
