@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        <main class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <main class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 mx-auto container">
             @yield('content')
         </main>
     </div>
